@@ -1,0 +1,17 @@
+flask==2.0.1
+flask-socketio==5.1.1
+eventlet==0.33.0
+playwright==1.40.0
+gpt4all==2.0.2
+requests==2.31.0
+python-dotenv==1.0.0
+websocket-client==1.6.1
+beautifulsoup4==4.12.2
+fake-useragent==1.1.1
+pillow==10.0.0
+# Добавляем инструменты для автоматического исправления кода
+black==23.3.0
+autopep8==2.0.2
+pylint==2.17.0
+safety==2.3.0
+bandit==1.7.5

@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Менеджер ботов Manhunt</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        /* Оптимизированные базовые стили */
+        :root {
+            --primary: #4361ee;
+            --primary-dark: #3a0ca3;
+            --secondary: #4895ef;
+            --dark: #212529;
+            --gray-dark: #343a40;
+            --gray: #495057;
+            --gray-light: #adb5bd;
+            --light: #f8f9fa;
+            --danger: #e63946;
+            --success: #2a9d8f;
+            --warning: #f77f00;
+            --info: #4cc9f0;
+            --border-radius: 8px;
+            --box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: #606060; /* Серый фон */
+            color: var(--light);
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 10px;
+            min-height: 100vh;
+            overflow-x: hidden;
+            will-change: auto; /* Оптимизация производительности */
+        }
+        
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 15px;
+            background-color: rgba(40, 44, 52, 0.95);
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        h1, h2, h3 {
+            font-weight: 600;
+        }
+        
+        h1 {
+            font-size: 2rem; /* Увеличенный размер */
+            color: #fff;
+        }
+        
+        h1 i {
+            margin-right: 10px;
+            color: var(--info);
+            font-size: 1.8rem; /* Увеличенная иконка */
+        }
+        
+        h2 {
+            font-size: 1.3rem; /* Увеличенный размер */
+            margin-bottom: 10px;
+            color: var(--light);
+        }
+        
+        h3 {
+            font-size: 1.2rem; /* Увеличенный размер */
+            margin-top: 10px;
+            margin-bottom: 8px;
+            color: var(--secondary);
+        }
+        
+        .status-badge {
+            background: rgba(108, 117, 125, 0.2);
+            border: 1px solid rgba(108, 117, 125, 0.3);
+            color: var(--light);
+            padding: 8px 15px; /* Увеличенный размер */
+            border-radius: 20px;
+            font-size: 0.9rem; /* Увеличенный шрифт */
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            transition: all 0.3s ease; /* Добавляем плавный переход */
+        }
+        
+        .status-badge:before {
+            content: '';
+            display: inline-block;
+            width: 10px; /* Увеличенный размер */
+            height: 10px; /* Увеличенный размер */
+            border-radius: 50%;
+            background-color: var(--gray-light);
+            margin-right: 8px;
+            transition: background-color 0.3s ease; /* Плавный переход цвета */
+        }
+        
+        .status-badge.active {
+            background: rgba(42, 157, 143, 0.2);
+            border-color: rgba(42, 157, 143, 0.4);
+        }
+        
+        .status-badge.active:before {
+            background-color: var(--success);
+        }
+        
+        /* Горизонтальный грид */
+        .grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .grid-column {
+            flex: 1 1 320px; /* Увеличенная минимальная ширина */
+        }
+        
+        .card {
+            background: rgba(33, 37, 41, 0.7);
+            border-radius: var(--border-radius);
+            padding: 18px; /* Увеличенный размер */
+            margin-bottom: 15px;
+            box-shadow: var(--box-shadow);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: var(--primary);
+            border-radius: var(--border-radius) 0 0 var(--border-radius);
+        }
+        
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        
+        .card-header h2 {
+            display: flex;
+            align-items: center;
+            margin-bottom: 0;
+        }
+        
+        .card-header h2 i {
+            margin-right: 8px;
+            color: var(--secondary);
+            font-size: 1.2rem; /* Увеличенный размер */
+        }
+        
+        input, select, textarea, button {
+            width: 100%;
+            padding: 12px 15px; /* Увеличенный размер */
+            margin-bottom: 12px;
+            border-radius: var(--border-radius);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            background-color: rgba(33, 37, 41, 0.6);
+            color: var(--light);
+            font-size: 1rem; /* Увеличенный шрифт */
+        }
+        
+        input:focus, select:focus, textarea:focus {
+            outline: none;
+            border-color: var(--primary);
+        }
+        
+        textarea {
+            min-height: 120px; /* Увеличенная высота */
+            resize: vertical;
+        }
+        
+        button {
+            cursor: pointer;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            border: none;
+            font-weight: 500;
+            text-transform: uppercase;
+            font-size: 0.9rem; /* Увеличенный шрифт */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 45px; /* Увеличенная высота */
+        }
+        
+        button:hover {
+            opacity: 0.9;
+        }
+        
+        button:active {
+            opacity: 1;
+        }
+        
+        button.secondary {
+            background: linear-gradient(90deg, var(--secondary), var(--info));
+        }
+        
+        button.danger {
+            background: linear-gradient(90deg, var(--danger), #ff5e78);
+        }
+        
+        button.success {
+            background: linear-gradient(90deg, var(--success), #80ed99);
+        }
+        
+        button i {
+            margin-right: 8px;
+            font-size: 1rem; /* Увеличенный размер */
+        }
+        
+        button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+        
+        .btn-row {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .btn-row button {
+            flex: 1;
+        }
+        
+        .list-group {
+            list-style: none;
+            max-height: 200px; /* Увеличенная высота */
+            overflow-y: auto;
+            margin-bottom: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: var(--border-radius);
+            background-color: rgba(33, 37, 41, 0.3);
+            padding: 5px;
+        }
+        
+        .list-group::-webkit-scrollbar {
+            width: 5px;
+        }
+        
+        .list-group::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.05);
+        }
+        
+        .list-group::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 3px;
+        }
+        
+        .list-group-item {
+            padding: 12px; /* Увеличенный размер */
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 6px;
+            margin-bottom: 2px;
+            font-size: 0.95rem; /* Увеличенный шрифт */
+        }
+        
+        .list-group-item:hover {
+            background-color: rgba(73, 80, 87, 0.3);
+        }
+        
+        .list-group-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+        }
+        
+        .list-group-item button {
+            width: auto;
+            margin: 0;
+            padding: 5px 10px; /* Увеличенный размер */
+            font-size: 0.85rem; /* Увеличенный шрифт */
+            height: 30px; /* Увеличенная высота */
+            background: transparent;
+            color: var(--danger);
+            border: 1px solid rgba(230, 57, 70, 0.3);
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+        }
+        
+        .form-row {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        
+        .form-row > * {
+            flex: 1;
+            margin-bottom: 0;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 6px;
+            color: var(--gray-light);
+            font-size: 0.9rem; /* Увеличенный шрифт */
+        }
+        
+        .progress-container {
+            background-color: rgba(33, 37, 41, 0.5);
+            height: 10px; /* Увеличенная высота */
+            border-radius: 10px;
+            margin-bottom: 15px;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, var(--success), var(--info));
+            width: 0%;
+            border-radius: 10px;
+            position: relative;
+        }
+        
+        .progress-value {
+            position: absolute;
+            right: 8px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 0.8rem; /* Увеличенный шрифт */
+            color: var(--light);
+            z-index: 2;
+        }
+        
+        .logs {
+            background-color: rgba(33, 37, 41, 0.5);
+            border-radius: var(--border-radius);
+            padding: 12px; /* Увеличенный размер */
+            height: 250px; /* Увеличенная высота */
+            overflow-y: auto;
+            font-family: monospace;
+            font-size: 0.9rem; /* Увеличенный шрифт */
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            white-space: pre-wrap;
+            line-height: 1.4;
+            color: #d1d5db;
+        }
+        
+        .logs::-webkit-scrollbar {
+            width: 5px;
+        }
+        
+        .logs::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.05);
+        }
+        
+        .logs::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.2);
+        }
+        
+        .log-entry {
+            margin-bottom: 6px;
+            padding: 2px 0;
+            border-bottom: 1px dashed rgba(255, 255, 255, 0.05);
+        }
+        
+        .log-time {
+            color: var(--info);
+            margin-right: 6px;
+            font-weight: 500;
+        }
+        
+        .stream-container {
+            position: relative;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            background-color: #121212;
+            height: 250px; /* Увеличенная высота */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .stream-container img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+        
+        .stream-container::before {
+            content: "Ожидание трансляции...";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: var(--gray-light);
+            font-size: 1rem; /* Увеличенный шрифт */
+            z-index: 0;
+        }
+        
+        .stream-container img[src] {
+            z-index: 1;
+            position: relative;
+        }
+        
+        .stats-row {
+            display: flex;
+            gap: 10px;
+            margin: 10px 0;
+        }
+        
+        .stat-card {
+            flex: 1;
+            background: rgba(33, 37, 41, 0.5);
+            border-radius: var(--border-radius);
+            padding: 12px; /* Увеличенный размер */
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        
+        .stat-value {
+            font-size: 1.4rem; /* Увеличенный шрифт */
+            font-weight: 700;
+            color: var(--info);
+            margin: 5px 0;
+        }
+        
+        .stat-label {
+            font-size: 0.9rem; /* Увеличенный шрифт */
+            color: var(--gray-light);
+        }
+        
+        .hidden {
+            display: none !important;
+        }
+        
+        .help-text {
+            font-size: 0.85rem !important; /* Увеличенный шрифт */
+            color: #adb5bd;
+            margin-top: 7px;
+            text-align: center;
+        }
+        
+        #status-overlay {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background-color: rgba(42, 157, 143, 0.9);
+            color: white;
+            padding: 12px 18px; /* Увеличенный размер */
+            border-radius: 5px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 0.95rem; /* Увеличенный шрифт */
+        }
+        
+        /* Медиа-запросы для адаптивности */
+        @media (max-width: 1400px) {
+            .grid {
+                flex-direction: column;
+            }
+            
+            .grid-column {
+                flex: 1 1 100%;
+            }
+        }
+
+        .ai-metrics {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .metric-row {
+            display: flex;
+            gap: 10px;
+        }
+
+        .metric-card {
+            flex: 1;
+            background: rgba(33, 37, 41, 0.5);
+            border-radius: var(--border-radius);
+            padding: 15px;
+            text-align: center;
+            border: 1px solid rgba(var(--info-rgb), 0.2);
+        }
+
+        .metric-label {
+            font-size: 0.9rem;
+            color: var(--gray-light);
+            margin-bottom: 5px;
+        }
+
+        .metric-value {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--info);
+        }
+
+        .learning-progress {
+            margin-top: 10px;
+        }
+
+        .progress-label {
+            font-size: 0.9rem;
+            color: var(--gray-light);
+            margin-bottom: 5px;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        .metric-value.updated {
+            animation: pulse 0.5s ease-in-out;
+            color: var(--success);
+        }
+    </style>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.4/socket.io.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-robot"></i> Менеджер ботов Manhunt</h1>
+            <div id="status-badge" class="status-badge">Неактивен</div>
+        </header>
+        <div class="grid">
+            <!-- Первая колонка -->
+            <div class="grid-column">
+                <!-- Управление аккаунтами -->
+                <div class="card">
+                    <div class="card-header">
+                        <h2><i class="fas fa-users"></i> Управление аккаунтами</h2>
+                    </div>
+                    <div class="form-group">
+                        <label for="username">Логин</label>
+                        <input type="text" id="username" placeholder="Введите логин">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Пароль</label>
+                        <input type="password" id="password" placeholder="Введите пароль">
+                    </div>
+                    <button id="add-account" class="success"><i class="fas fa-plus"></i> Добавить аккаунт</button>
+                    <h3><i class="fas fa-list-ul"></i> Аккаунты</h3>
+                    <ul id="accounts-list" class="list-group"></ul>
+                </div>
+                <!-- Управление прокси -->
+                <div class="card">
+                    <div class="card-header">
+                        <h2><i class="fas fa-network-wired"></i> Управление прокси</h2>
+                    </div>
+                    <div class="form-group">
+                        <label for="proxy">Адрес прокси</label>
+                        <input type="text" id="proxy" placeholder="host:port или user:pass@host:port">
+                    </div>
+                    <div class="btn-row">
+                        <button id="add-proxy" class="success"><i class="fas fa-plus"></i> Добавить</button>
+                        <button id="check-proxy" class="secondary"><i class="fas fa-check"></i> Проверить</button>
+                    </div>
+                    <h3><i class="fas fa-shield-alt"></i> Прокси</h3>
+                    <ul id="proxies-list" class="list-group"></ul>
+                </div>
+            </div>
+            <!-- Вторая колонка -->
+            <div class="grid-column">
+                <!-- Настройки бота -->
+                <div class="card">
+                    <div class="card-header">
+                        <h2><i class="fas fa-cog"></i> Настройки бота</h2>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Сообщение для отправки</label>
+                        <textarea id="message" placeholder="Введите текст сообщения"></textarea>
+                    </div>
+                    <div class="form-row">
+                        <div>
+                            <label for="min-age">Мин. возраст</label>
+                            <input type="number" id="min-age" min="18" max="99" value="18">
+                        </div>
+                        <div>
+                            <label for="max-age">Макс. возраст</label>
+                            <input type="number" id="max-age" min="18" max="99" value="99">
+                        </div>
+                    </div>
+                    <div class="btn-row">
+                        <button id="start-bot" class="success"><i class="fas fa-play"></i> Запустить</button>
+                        <button id="stop-bot" class="danger" disabled><i class="fas fa-stop"></i> Остановить</button>
+                    </div>
+                    <div class="help-text">Нажмите ESC для экстренной остановки бота</div>
+                </div>
+                <!-- Прогресс -->
+                <div class="card">
+                    <div class="card-header">
+                        <h2><i class="fas fa-chart-line"></i> Прогресс</h2>
+                    </div>
+                    <div>
+                        <label>Прогресс выполнения</label>
+                        <div class="progress-container">
+                            <div id="progress-bar" class="progress-bar"></div>
+                        </div>
+                    </div>
+                    <div class="stats-row">
+                        <div class="stat-card">
+                            <div class="stat-label">Сообщения</div>
+                            <div id="message-count" class="stat-value">0/0</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-label">Аккаунты</div>
+                            <div id="account-count" class="stat-value">0/0</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Статус ИИ -->
+                <div class="card">
+                    <div class="card-header">
+                        <h2><i class="fas fa-brain"></i> Статус ИИ</h2>
+                    </div>
+                    <div class="ai-metrics">
+                        <div class="metric-row">
+                            <div class="metric-card">
+                                <div class="metric-label">Итерации обучения</div>
+                                <div id="learning-iterations" class="metric-value">0</div>
+                            </div>
+                            <div class="metric-card">
+                                <div class="metric-label">Успешность действий</div>
+                                <div id="success-rate" class="metric-value">0%</div>
+                            </div>
+                        </div>
+                        <div class="metric-row">
+                            <div class="metric-card">
+                                <div class="metric-label">Среднее время действия</div>
+                                <div id="avg-action-time" class="metric-value">0ms</div>
+                            </div>
+                            <div class="metric-card">
+                                <div class="metric-label">Найдено селекторов</div>
+                                <div id="selectors-found" class="metric-value">0</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="learning-progress">
+                        <div class="progress-label">Прогресс обучения</div>
+                        <div class="progress-container">
+                            <div id="learning-progress-bar" class="progress-bar"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Третья колонка -->
+            <div class="grid-column">
+                <!-- Трансляция бота -->
+                <div class="card">
+                    <div class="card-header">
+                        <h2><i class="fas fa-desktop"></i> Трансляция бота</h2>
+                    </div>
+                    <div class="stream-container">
+                        <img id="bot-screenshot" alt="Трансляция действий бота" />
+                    </div>
+                </div>
+                <!-- Логи статуса -->
+                <div class="card">
+                    <div class="card-header">
+                        <h2><i class="fas fa-terminal"></i> Логи статуса</h2>
+                        <button id="clear-logs" class="secondary" title="Очистить логи"><i class="fas fa-trash"></i></button>
+                    </div>
+                    <div id="logs" class="logs"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Всплывающее сообщение -->
+        <div id="status-overlay" style="display: none;">
+            <span id="status-message">Статус операции</span>
+        </div>
+    </div>
+    <script>
+        function showStatusMessage(message, isSuccess) {
+            const overlay = document.getElementById('status-overlay');
+            const msgElement = document.getElementById('status-message');
+            overlay.style.backgroundColor = isSuccess ? 'rgba(42, 157, 143, 0.9)' : 'rgba(230, 57, 70, 0.9)';
+            msgElement.textContent = message;
+            overlay.style.display = 'block';
+            setTimeout(() => {
+                overlay.style.display = 'none';
+            }, 3000);
+        }
+        
+        // Добавляем функцию, которая будет вызвана после загрузки страницы
+        document.addEventListener('DOMContentLoaded', function() {
+            // Принудительно задаём начальное состояние
+            const statusBadge = document.getElementById('status-badge');
+            statusBadge.textContent = 'Неактивен';
+            statusBadge.classList.remove('active');
+        });
+    </script>
+    <script defer src="/static/js/app.js"></script>
+</body>
+</html>

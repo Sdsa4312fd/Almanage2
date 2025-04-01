@@ -1,0 +1,73 @@
+2025-04-01 03:32:56,694 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 03:32:57,890 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 03:37:25,950 - INFO - Модель не найдена. Скачиваем Llama 2 7B...
+2025-04-01 03:50:05,281 - INFO - === Запуск приложения ===
+2025-04-01 03:50:05,281 - INFO - Текущая директория: C:\Users\52\Desktop\Botmanage
+2025-04-01 03:50:05,282 - INFO - Python версия: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-04-01 03:50:05,283 - INFO - Директория C:\Users\52\Desktop\Botmanage\templates проверена
+2025-04-01 03:50:05,283 - INFO - Директория C:\Users\52\Desktop\Botmanage\static/js проверена
+2025-04-01 03:50:05,284 - INFO - Директория C:\Users\52\Desktop\Botmanage\logs проверена
+2025-04-01 03:50:05,284 - INFO - Директория C:\Users\52\Desktop\Botmanage\models проверена
+2025-04-01 03:50:05,284 - INFO - Найден HTML шаблон: C:\Users\52\Desktop\Botmanage\templates/index.html
+2025-04-01 03:50:05,285 - INFO - Найден JavaScript код: C:\Users\52\Desktop\Botmanage\static/js/app.js
+2025-04-01 03:50:05,285 - INFO - Запуск Flask сервера...
+2025-04-01 03:50:05,293 - INFO -  * Restarting with stat
+2025-04-01 03:50:15,738 - INFO - === Запуск приложения ===
+2025-04-01 03:50:15,738 - INFO - Текущая директория: C:\Users\52\Desktop\Botmanage
+2025-04-01 03:50:15,740 - INFO - Python версия: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-04-01 03:50:15,745 - INFO - Директория C:\Users\52\Desktop\Botmanage\templates проверена
+2025-04-01 03:50:15,746 - INFO - Директория C:\Users\52\Desktop\Botmanage\static/js проверена
+2025-04-01 03:50:15,747 - INFO - Директория C:\Users\52\Desktop\Botmanage\logs проверена
+2025-04-01 03:50:15,749 - INFO - Директория C:\Users\52\Desktop\Botmanage\models проверена
+2025-04-01 03:50:15,749 - INFO - Найден HTML шаблон: C:\Users\52\Desktop\Botmanage\templates/index.html
+2025-04-01 03:50:15,751 - INFO - Найден JavaScript код: C:\Users\52\Desktop\Botmanage\static/js/app.js
+2025-04-01 03:50:15,752 - INFO - Запуск Flask сервера...
+2025-04-01 03:50:15,766 - WARNING -  * Debugger is active!
+2025-04-01 03:50:15,769 - INFO -  * Debugger PIN: 126-487-789
+2025-04-01 04:01:42,098 - INFO - === Запуск приложения ===
+2025-04-01 04:01:42,100 - INFO - Текущая директория: C:\Users\52\Desktop\Botmanage
+2025-04-01 04:01:42,101 - INFO - Python версия: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-04-01 04:01:42,107 - INFO - Директория C:\Users\52\Desktop\Botmanage\templates проверена
+2025-04-01 04:01:42,108 - INFO - Директория C:\Users\52\Desktop\Botmanage\static/js проверена
+2025-04-01 04:01:42,110 - INFO - Директория C:\Users\52\Desktop\Botmanage\logs проверена
+2025-04-01 04:01:42,110 - INFO - Директория C:\Users\52\Desktop\Botmanage\models проверена
+2025-04-01 04:01:42,111 - INFO - Найден HTML шаблон: C:\Users\52\Desktop\Botmanage\templates/index.html
+2025-04-01 04:01:42,111 - INFO - Найден JavaScript код: C:\Users\52\Desktop\Botmanage\static/js/app.js
+2025-04-01 04:01:42,111 - INFO - Запуск Flask сервера...
+2025-04-01 04:01:42,124 - INFO -  * Restarting with stat
+2025-04-01 04:01:50,693 - INFO - === Запуск приложения ===
+2025-04-01 04:01:50,694 - INFO - Текущая директория: C:\Users\52\Desktop\Botmanage
+2025-04-01 04:01:50,696 - INFO - Python версия: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-04-01 04:01:50,697 - INFO - Директория C:\Users\52\Desktop\Botmanage\templates проверена
+2025-04-01 04:01:50,698 - INFO - Директория C:\Users\52\Desktop\Botmanage\static/js проверена
+2025-04-01 04:01:50,698 - INFO - Директория C:\Users\52\Desktop\Botmanage\logs проверена
+2025-04-01 04:01:50,698 - INFO - Директория C:\Users\52\Desktop\Botmanage\models проверена
+2025-04-01 04:01:50,699 - INFO - Найден HTML шаблон: C:\Users\52\Desktop\Botmanage\templates/index.html
+2025-04-01 04:01:50,699 - INFO - Найден JavaScript код: C:\Users\52\Desktop\Botmanage\static/js/app.js
+2025-04-01 04:01:50,699 - INFO - Запуск Flask сервера...
+2025-04-01 04:01:50,704 - WARNING -  * Debugger is active!
+2025-04-01 04:01:50,706 - INFO -  * Debugger PIN: 126-487-789
+2025-04-01 04:03:16,319 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 04:15:42,605 - INFO - === Запуск приложения ===
+2025-04-01 04:15:42,605 - INFO - Текущая директория: C:\Users\52\Desktop\Botmanage
+2025-04-01 04:15:42,606 - INFO - Python версия: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-04-01 04:15:42,607 - INFO - Директория C:\Users\52\Desktop\Botmanage\templates проверена
+2025-04-01 04:15:42,607 - INFO - Директория C:\Users\52\Desktop\Botmanage\static/js проверена
+2025-04-01 04:15:42,607 - INFO - Директория C:\Users\52\Desktop\Botmanage\logs проверена
+2025-04-01 04:15:42,608 - INFO - Директория C:\Users\52\Desktop\Botmanage\models проверена
+2025-04-01 04:15:42,608 - INFO - Найден HTML шаблон: C:\Users\52\Desktop\Botmanage\templates/index.html
+2025-04-01 04:15:42,609 - INFO - Найден JavaScript код: C:\Users\52\Desktop\Botmanage\static/js/app.js
+2025-04-01 04:15:42,609 - INFO - Запуск Flask сервера...
+2025-04-01 04:15:42,615 - INFO -  * Restarting with stat
+2025-04-01 04:15:50,602 - INFO - === Запуск приложения ===
+2025-04-01 04:15:50,603 - INFO - Текущая директория: C:\Users\52\Desktop\Botmanage
+2025-04-01 04:15:50,604 - INFO - Python версия: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-04-01 04:15:50,604 - INFO - Директория C:\Users\52\Desktop\Botmanage\templates проверена
+2025-04-01 04:15:50,605 - INFO - Директория C:\Users\52\Desktop\Botmanage\static/js проверена
+2025-04-01 04:15:50,605 - INFO - Директория C:\Users\52\Desktop\Botmanage\logs проверена
+2025-04-01 04:15:50,605 - INFO - Директория C:\Users\52\Desktop\Botmanage\models проверена
+2025-04-01 04:15:50,606 - INFO - Найден HTML шаблон: C:\Users\52\Desktop\Botmanage\templates/index.html
+2025-04-01 04:15:50,607 - INFO - Найден JavaScript код: C:\Users\52\Desktop\Botmanage\static/js/app.js
+2025-04-01 04:15:50,607 - INFO - Запуск Flask сервера...
+2025-04-01 04:15:50,613 - WARNING -  * Debugger is active!
+2025-04-01 04:15:50,614 - INFO -  * Debugger PIN: 126-487-789

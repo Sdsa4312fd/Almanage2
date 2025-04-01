@@ -1,0 +1,555 @@
+2025-03-31 17:08:27,410 [INFO] Проверка зависимостей...
+2025-03-31 17:08:27,653 [INFO] ✓ flask==2.0.1 уже установлен
+2025-03-31 17:08:28,165 [INFO] ✓ flask-socketio==5.1.1 уже установлен
+2025-03-31 17:08:28,380 [INFO] ✓ eventlet==0.33.0 уже установлен
+2025-03-31 17:08:28,381 [INFO] ✓ playwright==1.40.0 уже установлен
+2025-03-31 17:08:28,381 [INFO] ✓ requests==2.31.0 уже установлен
+2025-03-31 17:08:28,381 [INFO] ✗ Установка python-dotenv==1.0.0...
+2025-03-31 17:08:30,569 [INFO] ✓ python-dotenv==1.0.0 успешно установлен
+2025-03-31 17:08:30,572 [INFO] ✗ Установка websocket-client==1.6.1...
+2025-03-31 17:08:32,657 [INFO] ✓ websocket-client==1.6.1 успешно установлен
+2025-03-31 17:08:32,659 [INFO] ✗ Установка beautifulsoup4==4.12.2...
+2025-03-31 17:08:34,570 [INFO] ✓ beautifulsoup4==4.12.2 успешно установлен
+2025-03-31 17:08:34,576 [INFO] ✓ fake-useragent==1.1.1 уже установлен
+2025-03-31 17:08:34,577 [INFO] ✗ Установка pillow==10.0.0...
+2025-03-31 17:08:46,444 [ERROR] ✗ Ошибка установки pillow==10.0.0: Command '['C:\\Users\\52\\AppData\\Local\\Programs\\Python\\Python313\\python.exe', '-m', 'pip', 'install', 'pillow==10.0.0']' returned non-zero exit status 1.
+2025-03-31 17:08:46,445 [ERROR] Ошибка установки зависимостей
+2025-03-31 17:09:57,691 [INFO] Проверка зависимостей...
+2025-03-31 17:09:57,912 [INFO] ✓ flask==2.0.1 уже установлен
+2025-03-31 17:09:58,429 [INFO] ✓ flask-socketio==5.1.1 уже установлен
+2025-03-31 17:09:58,621 [INFO] ✓ eventlet==0.33.0 уже установлен
+2025-03-31 17:09:58,622 [INFO] ✓ playwright==1.40.0 уже установлен
+2025-03-31 17:09:58,622 [INFO] ✓ requests==2.31.0 уже установлен
+2025-03-31 17:09:58,623 [INFO] ✗ Установка python-dotenv==1.0.0...
+2025-03-31 17:10:00,961 [INFO] ✓ python-dotenv==1.0.0 успешно установлен
+2025-03-31 17:10:00,962 [INFO] ✗ Установка websocket-client==1.6.1...
+2025-03-31 17:10:02,934 [INFO] ✓ websocket-client==1.6.1 успешно установлен
+2025-03-31 17:10:02,935 [INFO] ✗ Установка beautifulsoup4==4.12.2...
+2025-03-31 17:10:04,938 [INFO] ✓ beautifulsoup4==4.12.2 успешно установлен
+2025-03-31 17:10:04,946 [INFO] ✓ fake-useragent==1.1.1 уже установлен
+2025-03-31 17:10:04,947 [INFO] ✗ Установка Pillow>=9.5.0...
+2025-03-31 17:10:07,046 [INFO] ✓ Pillow>=9.5.0 успешно установлен
+2025-03-31 17:10:12,524 [INFO] ✓ Директория models создана
+2025-03-31 17:10:12,524 [INFO] ✓ Директория templates создана
+2025-03-31 17:10:12,526 [INFO] ✓ Директория static/js создана
+2025-03-31 17:10:12,527 [INFO] ✓ Директория logs создана
+2025-03-31 17:10:12,528 [INFO] Проверка зависимостей...
+2025-03-31 17:10:12,528 [INFO] ✓ flask==2.0.1 уже установлен
+2025-03-31 17:10:12,528 [INFO] ✓ flask-socketio==5.1.1 уже установлен
+2025-03-31 17:10:12,529 [INFO] ✓ eventlet==0.33.0 уже установлен
+2025-03-31 17:10:12,529 [INFO] ✓ playwright==1.40.0 уже установлен
+2025-03-31 17:10:12,529 [INFO] ✓ requests==2.31.0 уже установлен
+2025-03-31 17:10:12,530 [INFO] ✗ Установка python-dotenv==1.0.0...
+2025-03-31 17:10:14,891 [INFO] ✓ python-dotenv==1.0.0 успешно установлен
+2025-03-31 17:10:14,897 [INFO] ✗ Установка websocket-client==1.6.1...
+2025-03-31 17:10:17,002 [INFO] ✓ websocket-client==1.6.1 успешно установлен
+2025-03-31 17:10:17,004 [INFO] ✗ Установка beautifulsoup4==4.12.2...
+2025-03-31 17:10:18,866 [INFO] ✓ beautifulsoup4==4.12.2 успешно установлен
+2025-03-31 17:10:18,866 [INFO] ✓ fake-useragent==1.1.1 уже установлен
+2025-03-31 17:10:18,868 [INFO] ✗ Установка Pillow>=9.5.0...
+2025-03-31 17:10:21,016 [INFO] ✓ Pillow>=9.5.0 успешно установлен
+2025-03-31 17:10:21,041 [INFO] ✓ Файл index.html скопирован в templates
+2025-03-31 17:10:21,063 [INFO] ✓ Файл app.js скопирован в static/js
+2025-03-31 17:10:23,283 [INFO] ✓ Playwright установлен
+2025-03-31 17:10:23,284 [INFO] 
+✓ Запуск сервера на http://127.0.0.1:5001
+2025-03-31 17:10:23,289 [INFO]  * Restarting with stat
+2025-03-31 17:10:23,354 [INFO] Проверка зависимостей...
+2025-03-31 17:10:23,560 [INFO] ✓ flask==2.0.1 уже установлен
+2025-03-31 17:10:24,085 [INFO] ✓ flask-socketio==5.1.1 уже установлен
+2025-03-31 17:10:24,277 [INFO] ✓ eventlet==0.33.0 уже установлен
+2025-03-31 17:10:24,278 [INFO] ✓ playwright==1.40.0 уже установлен
+2025-03-31 17:10:24,278 [INFO] ✓ requests==2.31.0 уже установлен
+2025-03-31 17:10:24,279 [INFO] ✗ Установка python-dotenv==1.0.0...
+2025-03-31 17:10:26,229 [INFO] ✓ python-dotenv==1.0.0 успешно установлен
+2025-03-31 17:10:26,232 [INFO] ✗ Установка websocket-client==1.6.1...
+2025-03-31 17:10:28,148 [INFO] ✓ websocket-client==1.6.1 успешно установлен
+2025-03-31 17:10:28,150 [INFO] ✗ Установка beautifulsoup4==4.12.2...
+2025-03-31 17:10:30,035 [INFO] ✓ beautifulsoup4==4.12.2 успешно установлен
+2025-03-31 17:10:30,042 [INFO] ✓ fake-useragent==1.1.1 уже установлен
+2025-03-31 17:10:30,043 [INFO] ✗ Установка Pillow>=9.5.0...
+2025-03-31 17:10:31,899 [INFO] ✓ Pillow>=9.5.0 успешно установлен
+2025-03-31 17:10:36,715 [INFO] ✓ Директория models создана
+2025-03-31 17:10:36,715 [INFO] ✓ Директория templates создана
+2025-03-31 17:10:36,716 [INFO] ✓ Директория static/js создана
+2025-03-31 17:10:36,717 [INFO] ✓ Директория logs создана
+2025-03-31 17:10:36,717 [INFO] Проверка зависимостей...
+2025-03-31 17:10:36,717 [INFO] ✓ flask==2.0.1 уже установлен
+2025-03-31 17:10:36,718 [INFO] ✓ flask-socketio==5.1.1 уже установлен
+2025-03-31 17:10:36,719 [INFO] ✓ eventlet==0.33.0 уже установлен
+2025-03-31 17:10:36,719 [INFO] ✓ playwright==1.40.0 уже установлен
+2025-03-31 17:10:36,720 [INFO] ✓ requests==2.31.0 уже установлен
+2025-03-31 17:10:36,721 [INFO] ✗ Установка python-dotenv==1.0.0...
+2025-03-31 17:10:38,763 [INFO] ✓ python-dotenv==1.0.0 успешно установлен
+2025-03-31 17:10:38,765 [INFO] ✗ Установка websocket-client==1.6.1...
+2025-03-31 17:10:40,667 [INFO] ✓ websocket-client==1.6.1 успешно установлен
+2025-03-31 17:10:40,670 [INFO] ✗ Установка beautifulsoup4==4.12.2...
+2025-03-31 17:10:42,498 [INFO] ✓ beautifulsoup4==4.12.2 успешно установлен
+2025-03-31 17:10:42,499 [INFO] ✓ fake-useragent==1.1.1 уже установлен
+2025-03-31 17:10:42,500 [INFO] ✗ Установка Pillow>=9.5.0...
+2025-03-31 17:10:44,324 [INFO] ✓ Pillow>=9.5.0 успешно установлен
+2025-03-31 17:10:44,326 [INFO] ✓ Файл index.html скопирован в templates
+2025-03-31 17:10:44,327 [INFO] ✓ Файл app.js скопирован в static/js
+2025-03-31 17:10:45,088 [INFO] ✓ Playwright установлен
+2025-03-31 17:10:45,089 [INFO] 
+✓ Запуск сервера на http://127.0.0.1:5001
+2025-03-31 17:10:45,094 [WARNING]  * Debugger is active!
+2025-03-31 17:10:45,096 [INFO]  * Debugger PIN: 126-487-789
+2025-03-31 17:11:10,866 [DEBUG] Starting new HTTPS connection (1): httpbin.org:443
+2025-03-31 17:11:11,544 [ERROR] Unhandled Exception: maximum recursion depth exceeded
+2025-03-31 17:11:20,894 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:11:23,898 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:11:26,917 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:11:29,906 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:11:32,899 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:11:35,910 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:11:38,909 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:11:41,908 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:11:44,905 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:11:47,896 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:11:50,896 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:11:53,895 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:11:57,093 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:12:00,089 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:12:03,089 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:12:06,096 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:12:09,104 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:12:12,084 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:12:15,092 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:12:18,093 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:12:20,902 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:12:24,088 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:12:26,898 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:12:29,894 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:12:32,903 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:12:35,908 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:12:38,901 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:12:41,898 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:12:44,897 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:12:47,904 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:12:50,900 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:14:07,559 [INFO] Проверка зависимостей...
+2025-03-31 17:14:07,787 [INFO] ✓ flask==2.0.1 уже установлен
+2025-03-31 17:14:08,341 [INFO] ✓ flask-socketio==5.1.1 уже установлен
+2025-03-31 17:14:08,519 [INFO] ✓ eventlet==0.33.0 уже установлен
+2025-03-31 17:14:08,520 [INFO] ✓ playwright==1.40.0 уже установлен
+2025-03-31 17:14:08,521 [INFO] ✓ requests==2.31.0 уже установлен
+2025-03-31 17:14:08,521 [INFO] ✗ Установка python-dotenv==1.0.0...
+2025-03-31 17:14:10,399 [INFO] ✓ python-dotenv==1.0.0 успешно установлен
+2025-03-31 17:14:10,400 [INFO] ✗ Установка websocket-client==1.6.1...
+2025-03-31 17:14:12,122 [INFO] ✓ websocket-client==1.6.1 успешно установлен
+2025-03-31 17:14:12,123 [INFO] ✗ Установка beautifulsoup4==4.12.2...
+2025-03-31 17:14:13,891 [INFO] ✓ beautifulsoup4==4.12.2 успешно установлен
+2025-03-31 17:14:13,898 [INFO] ✓ fake-useragent==1.1.1 уже установлен
+2025-03-31 17:14:13,899 [INFO] ✗ Установка Pillow>=9.5.0...
+2025-03-31 17:14:15,656 [INFO] ✓ Pillow>=9.5.0 успешно установлен
+2025-03-31 17:14:20,499 [INFO] ✓ Директория models создана
+2025-03-31 17:14:20,501 [INFO] ✓ Директория templates создана
+2025-03-31 17:14:20,501 [INFO] ✓ Директория static/js создана
+2025-03-31 17:14:20,502 [INFO] ✓ Директория logs создана
+2025-03-31 17:14:20,502 [INFO] Проверка зависимостей...
+2025-03-31 17:14:20,502 [INFO] ✓ flask==2.0.1 уже установлен
+2025-03-31 17:14:20,502 [INFO] ✓ flask-socketio==5.1.1 уже установлен
+2025-03-31 17:14:20,503 [INFO] ✓ eventlet==0.33.0 уже установлен
+2025-03-31 17:14:20,503 [INFO] ✓ playwright==1.40.0 уже установлен
+2025-03-31 17:14:20,504 [INFO] ✓ requests==2.31.0 уже установлен
+2025-03-31 17:14:20,504 [INFO] ✗ Установка python-dotenv==1.0.0...
+2025-03-31 17:14:22,871 [INFO] ✓ python-dotenv==1.0.0 успешно установлен
+2025-03-31 17:14:22,872 [INFO] ✗ Установка websocket-client==1.6.1...
+2025-03-31 17:14:24,785 [INFO] ✓ websocket-client==1.6.1 успешно установлен
+2025-03-31 17:14:24,786 [INFO] ✗ Установка beautifulsoup4==4.12.2...
+2025-03-31 17:14:26,642 [INFO] ✓ beautifulsoup4==4.12.2 успешно установлен
+2025-03-31 17:14:26,642 [INFO] ✓ fake-useragent==1.1.1 уже установлен
+2025-03-31 17:14:26,644 [INFO] ✗ Установка Pillow>=9.5.0...
+2025-03-31 17:14:28,472 [INFO] ✓ Pillow>=9.5.0 успешно установлен
+2025-03-31 17:14:28,474 [INFO] ✓ Файл index.html скопирован в templates
+2025-03-31 17:14:28,475 [INFO] ✓ Файл app.js скопирован в static/js
+2025-03-31 17:14:29,239 [INFO] ✓ Playwright установлен
+2025-03-31 17:14:29,241 [INFO] 
+✓ Запуск сервера на http://127.0.0.1:5001
+2025-03-31 17:14:29,261 [INFO]  * Restarting with stat
+2025-03-31 17:14:29,343 [INFO] Проверка зависимостей...
+2025-03-31 17:14:29,564 [INFO] ✓ flask==2.0.1 уже установлен
+2025-03-31 17:14:29,955 [INFO] ✓ flask-socketio==5.1.1 уже установлен
+2025-03-31 17:14:30,137 [INFO] ✓ eventlet==0.33.0 уже установлен
+2025-03-31 17:14:30,139 [INFO] ✓ playwright==1.40.0 уже установлен
+2025-03-31 17:14:30,140 [INFO] ✓ requests==2.31.0 уже установлен
+2025-03-31 17:14:30,140 [INFO] ✗ Установка python-dotenv==1.0.0...
+2025-03-31 17:14:32,061 [INFO] ✓ python-dotenv==1.0.0 успешно установлен
+2025-03-31 17:14:32,062 [INFO] ✗ Установка websocket-client==1.6.1...
+2025-03-31 17:14:33,872 [INFO] ✓ websocket-client==1.6.1 успешно установлен
+2025-03-31 17:14:33,874 [INFO] ✗ Установка beautifulsoup4==4.12.2...
+2025-03-31 17:14:35,680 [INFO] ✓ beautifulsoup4==4.12.2 успешно установлен
+2025-03-31 17:14:35,686 [INFO] ✓ fake-useragent==1.1.1 уже установлен
+2025-03-31 17:14:35,687 [INFO] ✗ Установка Pillow>=9.5.0...
+2025-03-31 17:14:37,489 [INFO] ✓ Pillow>=9.5.0 успешно установлен
+2025-03-31 17:14:42,365 [INFO] ✓ Директория models создана
+2025-03-31 17:14:42,365 [INFO] ✓ Директория templates создана
+2025-03-31 17:14:42,367 [INFO] ✓ Директория static/js создана
+2025-03-31 17:14:42,367 [INFO] ✓ Директория logs создана
+2025-03-31 17:14:42,368 [INFO] Проверка зависимостей...
+2025-03-31 17:14:42,369 [INFO] ✓ flask==2.0.1 уже установлен
+2025-03-31 17:14:42,369 [INFO] ✓ flask-socketio==5.1.1 уже установлен
+2025-03-31 17:14:42,369 [INFO] ✓ eventlet==0.33.0 уже установлен
+2025-03-31 17:14:42,370 [INFO] ✓ playwright==1.40.0 уже установлен
+2025-03-31 17:14:42,370 [INFO] ✓ requests==2.31.0 уже установлен
+2025-03-31 17:14:42,371 [INFO] ✗ Установка python-dotenv==1.0.0...
+2025-03-31 17:14:44,642 [INFO] ✓ python-dotenv==1.0.0 успешно установлен
+2025-03-31 17:14:44,644 [INFO] ✗ Установка websocket-client==1.6.1...
+2025-03-31 17:14:46,621 [INFO] ✓ websocket-client==1.6.1 успешно установлен
+2025-03-31 17:14:46,624 [INFO] ✗ Установка beautifulsoup4==4.12.2...
+2025-03-31 17:14:48,681 [INFO] ✓ beautifulsoup4==4.12.2 успешно установлен
+2025-03-31 17:14:48,682 [INFO] ✓ fake-useragent==1.1.1 уже установлен
+2025-03-31 17:14:48,684 [INFO] ✗ Установка Pillow>=9.5.0...
+2025-03-31 17:14:50,754 [INFO] ✓ Pillow>=9.5.0 успешно установлен
+2025-03-31 17:14:50,756 [INFO] ✓ Файл index.html скопирован в templates
+2025-03-31 17:14:50,757 [INFO] ✓ Файл app.js скопирован в static/js
+2025-03-31 17:14:51,522 [INFO] ✓ Playwright установлен
+2025-03-31 17:14:51,523 [INFO] 
+✓ Запуск сервера на http://127.0.0.1:5001
+2025-03-31 17:14:51,528 [WARNING]  * Debugger is active!
+2025-03-31 17:14:51,529 [INFO]  * Debugger PIN: 126-487-789
+2025-03-31 17:15:13,841 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:15:16,838 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:15:19,834 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:15:22,845 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:15:25,835 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:15:28,847 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:15:31,846 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:15:34,838 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:15:37,835 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:15:40,838 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:15:43,832 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:15:46,845 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:15:49,837 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:15:53,093 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:15:56,099 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:15:59,092 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:16:02,088 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:17:32,458 [INFO] Проверка зависимостей...
+2025-03-31 17:17:32,710 [INFO] ✓ flask==2.0.1 уже установлен
+2025-03-31 17:17:33,179 [INFO] ✓ flask-socketio==5.1.1 уже установлен
+2025-03-31 17:17:33,357 [INFO] ✓ eventlet==0.33.0 уже установлен
+2025-03-31 17:17:33,358 [INFO] ✓ playwright==1.40.0 уже установлен
+2025-03-31 17:17:33,358 [INFO] ✓ requests==2.31.0 уже установлен
+2025-03-31 17:17:33,359 [INFO] ✗ Установка python-dotenv==1.0.0...
+2025-03-31 17:17:35,210 [INFO] ✓ python-dotenv==1.0.0 успешно установлен
+2025-03-31 17:17:35,211 [INFO] ✗ Установка websocket-client==1.6.1...
+2025-03-31 17:17:36,955 [INFO] ✓ websocket-client==1.6.1 успешно установлен
+2025-03-31 17:17:36,956 [INFO] ✗ Установка beautifulsoup4==4.12.2...
+2025-03-31 17:17:38,709 [INFO] ✓ beautifulsoup4==4.12.2 успешно установлен
+2025-03-31 17:17:38,716 [INFO] ✓ fake-useragent==1.1.1 уже установлен
+2025-03-31 17:17:38,717 [INFO] ✗ Установка Pillow>=9.5.0...
+2025-03-31 17:17:40,567 [INFO] ✓ Pillow>=9.5.0 успешно установлен
+2025-03-31 17:17:44,836 [INFO] Проверка зависимостей...
+2025-03-31 17:17:44,836 [INFO] ✓ flask==2.0.1 уже установлен
+2025-03-31 17:17:44,837 [INFO] ✓ flask-socketio==5.1.1 уже установлен
+2025-03-31 17:17:44,837 [INFO] ✓ eventlet==0.33.0 уже установлен
+2025-03-31 17:17:44,838 [INFO] ✓ playwright==1.40.0 уже установлен
+2025-03-31 17:17:44,838 [INFO] ✓ requests==2.31.0 уже установлен
+2025-03-31 17:17:44,839 [INFO] ✗ Установка python-dotenv==1.0.0...
+2025-03-31 17:17:46,674 [INFO] ✓ python-dotenv==1.0.0 успешно установлен
+2025-03-31 17:17:46,675 [INFO] ✗ Установка websocket-client==1.6.1...
+2025-03-31 17:17:48,484 [INFO] ✓ websocket-client==1.6.1 успешно установлен
+2025-03-31 17:17:48,486 [INFO] ✗ Установка beautifulsoup4==4.12.2...
+2025-03-31 17:17:50,294 [INFO] ✓ beautifulsoup4==4.12.2 успешно установлен
+2025-03-31 17:17:50,294 [INFO] ✓ fake-useragent==1.1.1 уже установлен
+2025-03-31 17:17:50,296 [INFO] ✗ Установка Pillow>=9.5.0...
+2025-03-31 17:17:52,096 [INFO] ✓ Pillow>=9.5.0 успешно установлен
+2025-03-31 17:17:52,098 [INFO] ✓ Файл index.html скопирован в templates
+2025-03-31 17:17:52,101 [INFO] ✓ Файл app.js скопирован в static/js
+2025-03-31 17:17:52,904 [INFO] ✓ Playwright установлен
+2025-03-31 17:17:52,904 [INFO] 
+✓ Запуск сервера на http://127.0.0.1:5001
+2025-03-31 17:18:13,960 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:18:16,969 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:18:19,971 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:18:22,959 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:18:25,965 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:18:28,973 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:18:31,963 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:18:34,961 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-31 17:18:37,960 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 02:07:23,667 [INFO] Проверка зависимостей...
+2025-04-01 02:07:23,669 [INFO] ✓ flask==2.0.1 уже установлен
+2025-04-01 02:07:24,437 [INFO] ✓ flask-socketio==5.1.1 уже установлен
+2025-04-01 02:07:24,824 [INFO] ✓ eventlet==0.33.0 уже установлен
+2025-04-01 02:07:24,825 [INFO] ✓ playwright==1.40.0 уже установлен
+2025-04-01 02:07:24,826 [INFO] ✓ requests==2.31.0 уже установлен
+2025-04-01 02:07:24,826 [INFO] ✗ Установка python-dotenv==1.0.0...
+2025-04-01 02:07:27,443 [INFO] ✓ python-dotenv==1.0.0 успешно установлен
+2025-04-01 02:07:27,444 [INFO] ✗ Установка websocket-client==1.6.1...
+2025-04-01 02:07:29,906 [INFO] ✓ websocket-client==1.6.1 успешно установлен
+2025-04-01 02:07:29,907 [INFO] ✗ Установка beautifulsoup4==4.12.2...
+2025-04-01 02:07:32,396 [INFO] ✓ beautifulsoup4==4.12.2 успешно установлен
+2025-04-01 02:07:32,411 [INFO] ✓ fake-useragent==1.1.1 уже установлен
+2025-04-01 02:07:32,412 [INFO] ✗ Установка Pillow>=9.5.0...
+2025-04-01 02:07:35,076 [INFO] ✓ Pillow>=9.5.0 успешно установлен
+2025-04-01 02:07:49,882 [INFO] Проверка зависимостей...
+2025-04-01 02:07:49,889 [INFO] ✓ flask==2.0.1 уже установлен
+2025-04-01 02:07:49,893 [INFO] ✓ flask-socketio==5.1.1 уже установлен
+2025-04-01 02:07:49,896 [INFO] ✓ eventlet==0.33.0 уже установлен
+2025-04-01 02:07:49,897 [INFO] ✓ playwright==1.40.0 уже установлен
+2025-04-01 02:07:49,898 [INFO] ✓ requests==2.31.0 уже установлен
+2025-04-01 02:07:49,901 [INFO] ✗ Установка python-dotenv==1.0.0...
+2025-04-01 02:07:53,228 [INFO] ✓ python-dotenv==1.0.0 успешно установлен
+2025-04-01 02:07:53,229 [INFO] ✗ Установка websocket-client==1.6.1...
+2025-04-01 02:07:55,152 [INFO] ✓ websocket-client==1.6.1 успешно установлен
+2025-04-01 02:07:55,153 [INFO] ✗ Установка beautifulsoup4==4.12.2...
+2025-04-01 02:07:57,005 [INFO] ✓ beautifulsoup4==4.12.2 успешно установлен
+2025-04-01 02:07:57,005 [INFO] ✓ fake-useragent==1.1.1 уже установлен
+2025-04-01 02:07:57,007 [INFO] ✗ Установка Pillow>=9.5.0...
+2025-04-01 02:07:59,017 [INFO] ✓ Pillow>=9.5.0 успешно установлен
+2025-04-01 02:07:59,022 [INFO] ✓ Файл index.html скопирован в templates
+2025-04-01 02:07:59,025 [INFO] ✓ Файл app.js скопирован в static/js
+2025-04-01 02:08:00,692 [INFO] ✓ Playwright установлен
+2025-04-01 02:08:00,693 [INFO] 
+✓ Запуск сервера на http://127.0.0.1:5001
+2025-04-01 02:08:06,753 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 02:08:08,962 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 02:20:33,660 [INFO] Проверка зависимостей...
+2025-04-01 02:20:33,661 [INFO] ✓ flask==2.0.1 уже установлен
+2025-04-01 02:20:34,118 [INFO] ✓ flask-socketio==5.1.1 уже установлен
+2025-04-01 02:20:34,371 [INFO] ✓ eventlet==0.33.0 уже установлен
+2025-04-01 02:20:34,373 [INFO] ✓ playwright==1.40.0 уже установлен
+2025-04-01 02:20:34,373 [INFO] ✓ requests==2.31.0 уже установлен
+2025-04-01 02:20:34,373 [INFO] ✗ Установка python-dotenv==1.0.0...
+2025-04-01 02:20:36,627 [INFO] ✓ python-dotenv==1.0.0 успешно установлен
+2025-04-01 02:20:36,628 [INFO] ✗ Установка websocket-client==1.6.1...
+2025-04-01 02:20:39,061 [INFO] ✓ websocket-client==1.6.1 успешно установлен
+2025-04-01 02:20:39,062 [INFO] ✗ Установка beautifulsoup4==4.12.2...
+2025-04-01 02:20:41,218 [INFO] ✓ beautifulsoup4==4.12.2 успешно установлен
+2025-04-01 02:20:41,227 [INFO] ✓ fake-useragent==1.1.1 уже установлен
+2025-04-01 02:20:41,228 [INFO] ✗ Установка Pillow>=9.5.0...
+2025-04-01 02:20:43,451 [INFO] ✓ Pillow>=9.5.0 успешно установлен
+2025-04-01 02:20:49,262 [INFO] ✓ Директория C:\Users\52\Desktop\Botmanage\templates проверена/создана
+2025-04-01 02:20:49,263 [INFO] ✓ Директория C:\Users\52\Desktop\Botmanage\static/js проверена/создана
+2025-04-01 02:20:49,264 [INFO] ✓ Директория C:\Users\52\Desktop\Botmanage\logs проверена/создана
+2025-04-01 02:20:49,264 [INFO] ✓ Файл C:\Users\52\Desktop\Botmanage\templates\index.html существует
+2025-04-01 02:20:49,269 [INFO] ✓ Файл C:\Users\52\Desktop\Botmanage\static/js\app.js существует
+2025-04-01 02:20:49,270 [INFO] Проверка зависимостей...
+2025-04-01 02:20:49,270 [INFO] ✓ flask==2.0.1 уже установлен
+2025-04-01 02:20:49,271 [INFO] ✓ flask-socketio==5.1.1 уже установлен
+2025-04-01 02:20:49,271 [INFO] ✓ eventlet==0.33.0 уже установлен
+2025-04-01 02:20:49,271 [INFO] ✓ playwright==1.40.0 уже установлен
+2025-04-01 02:20:49,272 [INFO] ✓ requests==2.31.0 уже установлен
+2025-04-01 02:20:49,272 [INFO] ✗ Установка python-dotenv==1.0.0...
+2025-04-01 02:20:51,426 [INFO] ✓ python-dotenv==1.0.0 успешно установлен
+2025-04-01 02:20:51,429 [INFO] ✗ Установка websocket-client==1.6.1...
+2025-04-01 02:20:53,444 [INFO] ✓ websocket-client==1.6.1 успешно установлен
+2025-04-01 02:20:53,446 [INFO] ✗ Установка beautifulsoup4==4.12.2...
+2025-04-01 02:20:55,680 [INFO] ✓ beautifulsoup4==4.12.2 успешно установлен
+2025-04-01 02:20:55,680 [INFO] ✓ fake-useragent==1.1.1 уже установлен
+2025-04-01 02:20:55,682 [INFO] ✗ Установка Pillow>=9.5.0...
+2025-04-01 02:20:57,734 [INFO] ✓ Pillow>=9.5.0 успешно установлен
+2025-04-01 02:20:57,736 [INFO] ✓ Файл index.html скопирован в templates
+2025-04-01 02:20:57,739 [INFO] ✓ Файл app.js скопирован в static/js
+2025-04-01 02:20:59,165 [INFO] ✓ Playwright установлен
+2025-04-01 02:20:59,166 [INFO] 
+✓ Запуск сервера на http://127.0.0.1:5001
+2025-04-01 02:21:18,738 [ERROR] Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 02:23:23,719 [INFO] Проверка зависимостей...
+2025-04-01 02:23:23,720 [INFO] ✓ flask==2.0.1 уже установлен
+2025-04-01 02:23:24,145 [INFO] ✓ flask-socketio==5.1.1 уже установлен
+2025-04-01 02:23:24,337 [INFO] ✓ eventlet==0.33.0 уже установлен
+2025-04-01 02:23:24,338 [INFO] ✓ playwright==1.40.0 уже установлен
+2025-04-01 02:23:24,338 [INFO] ✓ requests==2.31.0 уже установлен
+2025-04-01 02:23:24,339 [INFO] ✗ Установка python-dotenv==1.0.0...
+2025-04-01 02:23:26,179 [INFO] ✓ python-dotenv==1.0.0 успешно установлен
+2025-04-01 02:23:26,180 [INFO] ✗ Установка websocket-client==1.6.1...
+2025-04-01 02:23:28,146 [INFO] ✓ websocket-client==1.6.1 успешно установлен
+2025-04-01 02:23:28,147 [INFO] ✗ Установка beautifulsoup4==4.12.2...
+2025-04-01 02:23:30,955 [INFO] ✓ beautifulsoup4==4.12.2 успешно установлен
+2025-04-01 02:23:30,965 [INFO] ✓ fake-useragent==1.1.1 уже установлен
+2025-04-01 02:23:30,965 [INFO] ✗ Установка Pillow>=9.5.0...
+2025-04-01 02:23:33,114 [INFO] ✓ Pillow>=9.5.0 успешно установлен
+2025-04-01 02:23:38,310 [INFO] ✓ Директория C:\Users\52\Desktop\Botmanage\templates проверена/создана
+2025-04-01 02:23:38,311 [INFO] ✓ Директория C:\Users\52\Desktop\Botmanage\static/js проверена/создана
+2025-04-01 02:23:38,312 [INFO] ✓ Директория C:\Users\52\Desktop\Botmanage\logs проверена/создана
+2025-04-01 02:23:38,312 [INFO] ✓ Файл C:\Users\52\Desktop\Botmanage\templates\index.html существует
+2025-04-01 02:23:38,313 [INFO] ✓ Файл C:\Users\52\Desktop\Botmanage\static/js\app.js существует
+2025-04-01 02:23:38,313 [INFO] Проверка зависимостей...
+2025-04-01 02:23:38,313 [INFO] ✓ flask==2.0.1 уже установлен
+2025-04-01 02:23:38,315 [INFO] ✓ flask-socketio==5.1.1 уже установлен
+2025-04-01 02:23:38,315 [INFO] ✓ eventlet==0.33.0 уже установлен
+2025-04-01 02:23:38,316 [INFO] ✓ playwright==1.40.0 уже установлен
+2025-04-01 02:23:38,316 [INFO] ✓ requests==2.31.0 уже установлен
+2025-04-01 02:23:38,317 [INFO] ✗ Установка python-dotenv==1.0.0...
+2025-04-01 02:23:40,508 [INFO] ✓ python-dotenv==1.0.0 успешно установлен
+2025-04-01 02:23:40,510 [INFO] ✗ Установка websocket-client==1.6.1...
+2025-04-01 02:23:42,807 [INFO] ✓ websocket-client==1.6.1 успешно установлен
+2025-04-01 02:23:42,811 [INFO] ✗ Установка beautifulsoup4==4.12.2...
+2025-04-01 02:23:44,887 [INFO] ✓ beautifulsoup4==4.12.2 успешно установлен
+2025-04-01 02:23:44,888 [INFO] ✓ fake-useragent==1.1.1 уже установлен
+2025-04-01 02:23:44,891 [INFO] ✗ Установка Pillow>=9.5.0...
+2025-04-01 02:23:46,875 [INFO] ✓ Pillow>=9.5.0 успешно установлен
+2025-04-01 02:23:46,879 [INFO] ✓ Файл index.html скопирован в templates
+2025-04-01 02:23:46,881 [INFO] ✓ Файл app.js скопирован в static/js
+2025-04-01 02:23:48,191 [INFO] ✓ Playwright установлен
+2025-04-01 02:23:48,192 [INFO] 
+✓ Запуск сервера на http://127.0.0.1:5001
+2025-04-01 02:24:09,793 [ERROR] Ошибка проверки прокси: name 'requests' is not defined
+2025-04-01 02:31:22,994 [INFO] Проверка зависимостей...
+2025-04-01 02:31:22,995 [INFO] ✓ flask==2.0.1 уже установлен
+2025-04-01 02:31:23,531 [INFO] ✓ flask-socketio==5.1.1 уже установлен
+2025-04-01 02:31:23,824 [INFO] ✓ eventlet==0.33.0 уже установлен
+2025-04-01 02:31:23,826 [INFO] ✓ playwright==1.40.0 уже установлен
+2025-04-01 02:31:23,826 [INFO] ✓ requests==2.31.0 уже установлен
+2025-04-01 02:31:23,826 [INFO] ✗ Установка python-dotenv==1.0.0...
+2025-04-01 02:31:25,980 [INFO] ✓ python-dotenv==1.0.0 успешно установлен
+2025-04-01 02:31:25,982 [INFO] ✗ Установка websocket-client==1.6.1...
+2025-04-01 02:31:28,054 [INFO] ✓ websocket-client==1.6.1 успешно установлен
+2025-04-01 02:31:28,055 [INFO] ✗ Установка beautifulsoup4==4.12.2...
+2025-04-01 02:31:30,214 [INFO] ✓ beautifulsoup4==4.12.2 успешно установлен
+2025-04-01 02:31:30,221 [INFO] ✓ fake-useragent==1.1.1 уже установлен
+2025-04-01 02:31:30,222 [INFO] ✗ Установка Pillow>=9.5.0...
+2025-04-01 02:31:32,244 [INFO] ✓ Pillow>=9.5.0 успешно установлен
+2025-04-01 02:31:37,508 [INFO] ✓ Директория C:\Users\52\Desktop\Botmanage\templates проверена/создана
+2025-04-01 02:31:37,508 [INFO] ✓ Директория C:\Users\52\Desktop\Botmanage\static/js проверена/создана
+2025-04-01 02:31:37,510 [INFO] ✓ Директория C:\Users\52\Desktop\Botmanage\logs проверена/создана
+2025-04-01 02:31:37,510 [INFO] ✓ Файл C:\Users\52\Desktop\Botmanage\templates\index.html существует
+2025-04-01 02:31:37,510 [INFO] ✓ Файл C:\Users\52\Desktop\Botmanage\static/js\app.js существует
+2025-04-01 02:31:37,511 [INFO] Проверка зависимостей...
+2025-04-01 02:31:37,511 [INFO] ✓ flask==2.0.1 уже установлен
+2025-04-01 02:31:37,511 [INFO] ✓ flask-socketio==5.1.1 уже установлен
+2025-04-01 02:31:37,512 [INFO] ✓ eventlet==0.33.0 уже установлен
+2025-04-01 02:31:37,512 [INFO] ✓ playwright==1.40.0 уже установлен
+2025-04-01 02:31:37,512 [INFO] ✓ requests==2.31.0 уже установлен
+2025-04-01 02:31:37,513 [INFO] ✗ Установка python-dotenv==1.0.0...
+2025-04-01 02:31:39,514 [INFO] ✓ python-dotenv==1.0.0 успешно установлен
+2025-04-01 02:31:39,516 [INFO] ✗ Установка websocket-client==1.6.1...
+2025-04-01 02:31:41,481 [INFO] ✓ websocket-client==1.6.1 успешно установлен
+2025-04-01 02:31:41,483 [INFO] ✗ Установка beautifulsoup4==4.12.2...
+2025-04-01 02:31:43,671 [INFO] ✓ beautifulsoup4==4.12.2 успешно установлен
+2025-04-01 02:31:43,671 [INFO] ✓ fake-useragent==1.1.1 уже установлен
+2025-04-01 02:31:43,674 [INFO] ✗ Установка Pillow>=9.5.0...
+2025-04-01 02:31:45,753 [INFO] ✓ Pillow>=9.5.0 успешно установлен
+2025-04-01 02:31:45,757 [INFO] ✓ Файл index.html скопирован в templates
+2025-04-01 02:31:46,675 [INFO] ✓ Playwright установлен
+2025-04-01 02:31:46,677 [INFO] 
+✓ Запуск сервера на http://127.0.0.1:5001
+2025-04-01 02:32:01,772 [DEBUG] Starting new HTTPS connection (1): httpbin.org:443
+2025-04-01 02:32:03,501 [ERROR] Неизвестная ошибка при проверке прокси http://87414476-zone-custom-region-US-sessid-eQVcSXsf:yzuQQuVd@us.922s5.net:6300: maximum recursion depth exceeded
+2025-04-01 02:34:16,077 [INFO] Проверка зависимостей...
+2025-04-01 02:34:16,078 [INFO] ✓ flask==2.0.1 уже установлен
+2025-04-01 02:34:16,607 [INFO] ✓ flask-socketio==5.1.1 уже установлен
+2025-04-01 02:34:16,797 [INFO] ✓ eventlet==0.33.0 уже установлен
+2025-04-01 02:34:16,798 [INFO] ✓ playwright==1.40.0 уже установлен
+2025-04-01 02:34:16,798 [INFO] ✓ requests==2.31.0 уже установлен
+2025-04-01 02:34:16,799 [INFO] ✗ Установка python-dotenv==1.0.0...
+2025-04-01 02:34:18,813 [INFO] ✓ python-dotenv==1.0.0 успешно установлен
+2025-04-01 02:34:18,814 [INFO] ✗ Установка websocket-client==1.6.1...
+2025-04-01 02:34:21,500 [INFO] ✓ websocket-client==1.6.1 успешно установлен
+2025-04-01 02:34:21,502 [INFO] ✗ Установка beautifulsoup4==4.12.2...
+2025-04-01 02:34:23,509 [INFO] ✓ beautifulsoup4==4.12.2 успешно установлен
+2025-04-01 02:34:23,516 [INFO] ✓ fake-useragent==1.1.1 уже установлен
+2025-04-01 02:34:23,518 [INFO] ✗ Установка Pillow>=9.5.0...
+2025-04-01 02:34:25,635 [INFO] ✓ Pillow>=9.5.0 успешно установлен
+2025-04-01 02:34:30,296 [INFO] ✓ Директория C:\Users\52\Desktop\Botmanage\templates проверена/создана
+2025-04-01 02:34:30,296 [INFO] ✓ Директория C:\Users\52\Desktop\Botmanage\static/js проверена/создана
+2025-04-01 02:34:30,297 [INFO] ✓ Директория C:\Users\52\Desktop\Botmanage\logs проверена/создана
+2025-04-01 02:34:30,298 [INFO] ✓ Файл C:\Users\52\Desktop\Botmanage\templates\index.html существует
+2025-04-01 02:34:30,298 [INFO] ✓ Файл C:\Users\52\Desktop\Botmanage\static/js\app.js существует
+2025-04-01 02:34:30,298 [INFO] Проверка зависимостей...
+2025-04-01 02:34:30,299 [INFO] ✓ flask==2.0.1 уже установлен
+2025-04-01 02:34:30,299 [INFO] ✓ flask-socketio==5.1.1 уже установлен
+2025-04-01 02:34:30,299 [INFO] ✓ eventlet==0.33.0 уже установлен
+2025-04-01 02:34:30,300 [INFO] ✓ playwright==1.40.0 уже установлен
+2025-04-01 02:34:30,301 [INFO] ✓ requests==2.31.0 уже установлен
+2025-04-01 02:34:30,302 [INFO] ✗ Установка python-dotenv==1.0.0...
+2025-04-01 02:34:32,074 [INFO] ✓ python-dotenv==1.0.0 успешно установлен
+2025-04-01 02:34:32,077 [INFO] ✗ Установка websocket-client==1.6.1...
+2025-04-01 02:34:33,862 [INFO] ✓ websocket-client==1.6.1 успешно установлен
+2025-04-01 02:34:33,864 [INFO] ✗ Установка beautifulsoup4==4.12.2...
+2025-04-01 02:34:35,658 [INFO] ✓ beautifulsoup4==4.12.2 успешно установлен
+2025-04-01 02:34:35,658 [INFO] ✓ fake-useragent==1.1.1 уже установлен
+2025-04-01 02:34:35,660 [INFO] ✗ Установка Pillow>=9.5.0...
+2025-04-01 02:34:37,566 [INFO] ✓ Pillow>=9.5.0 успешно установлен
+2025-04-01 02:34:37,569 [INFO] ✓ Файл index.html скопирован в templates
+2025-04-01 02:34:38,424 [INFO] ✓ Playwright установлен
+2025-04-01 02:34:38,425 [INFO] 
+✓ Запуск сервера на http://127.0.0.1:5001
+2025-04-01 02:34:55,008 [DEBUG] Starting new HTTPS connection (1): httpbin.org:443
+2025-04-01 02:34:55,973 [ERROR] Неизвестная ошибка при проверке прокси http://87414476-zone-custom-region-US-sessid-eQVcSXsf:yzuQQuVd@us.922s5.net:6300: maximum recursion depth exceeded
+2025-04-01 02:39:36,411 [INFO] Проверка зависимостей...
+2025-04-01 02:39:36,412 [INFO] ✓ flask==2.0.1 уже установлен
+2025-04-01 02:39:36,908 [INFO] ✓ flask-socketio==5.1.1 уже установлен
+2025-04-01 02:39:37,247 [INFO] ✓ eventlet==0.33.0 уже установлен
+2025-04-01 02:39:37,248 [INFO] ✓ playwright==1.40.0 уже установлен
+2025-04-01 02:39:37,248 [INFO] ✓ requests==2.31.0 уже установлен
+2025-04-01 02:39:37,250 [INFO] ✗ Установка python-dotenv==1.0.0...
+2025-04-01 02:39:39,541 [INFO] ✓ python-dotenv==1.0.0 успешно установлен
+2025-04-01 02:39:39,542 [INFO] ✗ Установка websocket-client==1.6.1...
+2025-04-01 02:39:41,691 [INFO] ✓ websocket-client==1.6.1 успешно установлен
+2025-04-01 02:39:41,692 [INFO] ✗ Установка beautifulsoup4==4.12.2...
+2025-04-01 02:39:43,891 [INFO] ✓ beautifulsoup4==4.12.2 успешно установлен
+2025-04-01 02:39:43,899 [INFO] ✓ fake-useragent==1.1.1 уже установлен
+2025-04-01 02:39:43,900 [INFO] ✗ Установка Pillow>=9.5.0...
+2025-04-01 02:39:46,154 [INFO] ✓ Pillow>=9.5.0 успешно установлен
+2025-04-01 02:39:51,369 [INFO] ✓ Директория C:\Users\52\Desktop\Botmanage\templates проверена/создана
+2025-04-01 02:39:51,369 [INFO] ✓ Директория C:\Users\52\Desktop\Botmanage\static/js проверена/создана
+2025-04-01 02:39:51,371 [INFO] ✓ Директория C:\Users\52\Desktop\Botmanage\logs проверена/создана
+2025-04-01 02:39:51,372 [INFO] ✓ Файл C:\Users\52\Desktop\Botmanage\templates\index.html существует
+2025-04-01 02:39:51,373 [INFO] ✓ Файл C:\Users\52\Desktop\Botmanage\static/js\app.js существует
+2025-04-01 02:39:51,373 [INFO] Проверка зависимостей...
+2025-04-01 02:39:51,373 [INFO] ✓ flask==2.0.1 уже установлен
+2025-04-01 02:39:51,374 [INFO] ✓ flask-socketio==5.1.1 уже установлен
+2025-04-01 02:39:51,374 [INFO] ✓ eventlet==0.33.0 уже установлен
+2025-04-01 02:39:51,374 [INFO] ✓ playwright==1.40.0 уже установлен
+2025-04-01 02:39:51,375 [INFO] ✓ requests==2.31.0 уже установлен
+2025-04-01 02:39:51,375 [INFO] ✗ Установка python-dotenv==1.0.0...
+2025-04-01 02:39:53,527 [INFO] ✓ python-dotenv==1.0.0 успешно установлен
+2025-04-01 02:39:53,530 [INFO] ✗ Установка websocket-client==1.6.1...
+2025-04-01 02:39:55,743 [INFO] ✓ websocket-client==1.6.1 успешно установлен
+2025-04-01 02:39:55,746 [INFO] ✗ Установка beautifulsoup4==4.12.2...
+2025-04-01 02:39:57,803 [INFO] ✓ beautifulsoup4==4.12.2 успешно установлен
+2025-04-01 02:39:57,805 [INFO] ✓ fake-useragent==1.1.1 уже установлен
+2025-04-01 02:39:57,806 [INFO] ✗ Установка Pillow>=9.5.0...
+2025-04-01 02:40:00,081 [INFO] ✓ Pillow>=9.5.0 успешно установлен
+2025-04-01 02:40:00,083 [INFO] ✓ Файл index.html скопирован в templates
+2025-04-01 02:40:01,263 [INFO] ✓ Playwright установлен
+2025-04-01 02:40:01,264 [INFO] 
+✓ Запуск сервера на http://127.0.0.1:5001
+2025-04-01 02:40:21,930 [DEBUG] Starting new HTTPS connection (1): httpbin.org:443
+2025-04-01 02:42:57,720 [INFO] Проверка зависимостей...
+2025-04-01 02:42:57,720 [INFO] ✓ flask==2.0.1 уже установлен
+2025-04-01 02:42:58,198 [INFO] ✓ flask-socketio==5.1.1 уже установлен
+2025-04-01 02:42:58,500 [INFO] ✓ eventlet==0.33.0 уже установлен
+2025-04-01 02:42:58,501 [INFO] ✓ playwright==1.40.0 уже установлен
+2025-04-01 02:42:58,501 [INFO] ✓ requests==2.31.0 уже установлен
+2025-04-01 02:42:58,501 [INFO] ✗ Установка python-dotenv==1.0.0...
+2025-04-01 02:43:01,184 [INFO] ✓ python-dotenv==1.0.0 успешно установлен
+2025-04-01 02:43:01,185 [INFO] ✗ Установка websocket-client==1.6.1...
+2025-04-01 02:43:03,142 [INFO] ✓ websocket-client==1.6.1 успешно установлен
+2025-04-01 02:43:03,144 [INFO] ✗ Установка beautifulsoup4==4.12.2...
+2025-04-01 02:43:05,271 [INFO] ✓ beautifulsoup4==4.12.2 успешно установлен
+2025-04-01 02:43:05,278 [INFO] ✓ fake-useragent==1.1.1 уже установлен
+2025-04-01 02:43:05,278 [INFO] ✗ Установка Pillow>=9.5.0...
+2025-04-01 02:43:07,116 [INFO] ✓ Pillow>=9.5.0 успешно установлен
+2025-04-01 02:43:11,348 [INFO] ✓ Директория C:\Users\52\Desktop\Botmanage\templates проверена/создана
+2025-04-01 02:43:11,349 [INFO] ✓ Директория C:\Users\52\Desktop\Botmanage\static/js проверена/создана
+2025-04-01 02:43:11,350 [INFO] ✓ Директория C:\Users\52\Desktop\Botmanage\logs проверена/создана
+2025-04-01 02:43:11,350 [INFO] ✓ Файл C:\Users\52\Desktop\Botmanage\templates\index.html существует
+2025-04-01 02:43:11,351 [INFO] ✓ Файл C:\Users\52\Desktop\Botmanage\static/js\app.js существует
+2025-04-01 02:43:11,351 [INFO] Проверка зависимостей...
+2025-04-01 02:43:11,351 [INFO] ✓ flask==2.0.1 уже установлен
+2025-04-01 02:43:11,352 [INFO] ✓ flask-socketio==5.1.1 уже установлен
+2025-04-01 02:43:11,352 [INFO] ✓ eventlet==0.33.0 уже установлен
+2025-04-01 02:43:11,352 [INFO] ✓ playwright==1.40.0 уже установлен
+2025-04-01 02:43:11,353 [INFO] ✓ requests==2.31.0 уже установлен
+2025-04-01 02:43:11,353 [INFO] ✗ Установка python-dotenv==1.0.0...
+2025-04-01 02:43:13,173 [INFO] ✓ python-dotenv==1.0.0 успешно установлен
+2025-04-01 02:43:13,175 [INFO] ✗ Установка websocket-client==1.6.1...
+2025-04-01 02:43:15,031 [INFO] ✓ websocket-client==1.6.1 успешно установлен
+2025-04-01 02:43:15,032 [INFO] ✗ Установка beautifulsoup4==4.12.2...
+2025-04-01 02:43:16,877 [INFO] ✓ beautifulsoup4==4.12.2 успешно установлен
+2025-04-01 02:43:16,878 [INFO] ✓ fake-useragent==1.1.1 уже установлен
+2025-04-01 02:43:16,880 [INFO] ✗ Установка Pillow>=9.5.0...
+2025-04-01 02:43:18,696 [INFO] ✓ Pillow>=9.5.0 успешно установлен
+2025-04-01 02:43:18,698 [INFO] ✓ Файл index.html скопирован в templates
+2025-04-01 02:43:19,522 [INFO] ✓ Playwright установлен
+2025-04-01 02:43:19,523 [INFO] 
+✓ Запуск сервера на http://127.0.0.1:5001
+2025-04-01 02:43:39,292 [DEBUG] Starting new HTTP connection (1): us.922s5.net:6300
+2025-04-01 02:43:40,100 [DEBUG] http://us.922s5.net:6300 "GET http://httpbin.org/ip HTTP/1.1" 200 31
+2025-04-01 02:43:40,103 [INFO] Прокси 87414476-zone-custom-region-US-sessid-eQVcSXsf:yzuQQuVd@us.922s5.net:6300 работает, IP: 76.200.199.4

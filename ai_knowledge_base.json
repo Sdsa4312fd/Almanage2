@@ -1,0 +1,94 @@
+{
+  "knowledge_base": {
+    "login_page": {
+      "patterns": [
+        "/login"
+      ],
+      "selectors": {
+        "username": [
+          "input[id=\"loginusername\"]",
+          "input[name=\"username\"]",
+          "input[type=\"text\"]"
+        ],
+        "password": [
+          "input[id=\"loginpassword\"]",
+          "input[name=\"password\"]",
+          "input[type=\"password\"]"
+        ],
+        "submit": [
+          "button[type=\"submit\"]",
+          "input[type=\"submit\"]",
+          "button:contains(\"Login\")"
+        ]
+      },
+      "success_indicators": [
+        {
+          "not_contains_url": "/login"
+        },
+        {
+          "contains_element": "a[href*=\"logout\"]"
+        }
+      ]
+    },
+    "profiles_page": {
+      "patterns": [
+        "/lists/men",
+        "/search"
+      ],
+      "selectors": {
+        "filters": [
+          "#fb_showFilteringMenu_btn",
+          "button:contains(\"Filter\")"
+        ],
+        "min_age": [
+          "#fitlerAgeMin",
+          "input[placeholder*=\"Min\"]"
+        ],
+        "max_age": [
+          "#fitlerAgeMax",
+          "input[placeholder*=\"Max\"]"
+        ],
+        "apply": [
+          "#filtersDdDoApply",
+          "button:contains(\"Apply\")"
+        ],
+        "profiles": [
+          "div.profCont",
+          ".profile-container"
+        ],
+        "message_button": [
+          "span.profIcon.msgLink",
+          "a[href*=\"messages\"]",
+          "button:contains(\"Message\")"
+        ],
+        "close_chat": [
+          "button.close-chat",
+          "button.close",
+          "span.close-icon",
+          ".convoClose"
+        ]
+      }
+    },
+    "pagination": {
+      "selectors": {
+        "next_page": [
+          "a.pagination-next",
+          ".next-page",
+          ".pagination a[rel=\"next\"]",
+          "a:contains(\"Next\")"
+        ]
+      }
+    },
+    "logout": {
+      "selectors": {
+        "logout_link": [
+          "a[href=\"/logout\"]",
+          ".logout",
+          "a:contains(\"Выход\")",
+          "a:contains(\"Logout\")"
+        ]
+      }
+    }
+  },
+  "learning_iterations": 0
+}

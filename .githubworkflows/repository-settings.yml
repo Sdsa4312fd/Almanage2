@@ -1,0 +1,53 @@
+repository:
+  name: AImanage2
+  description: AI-powered bot manager
+  private: true
+  has_issues: true
+  has_projects: true
+  has_wiki: false
+  has_downloads: true
+  default_branch: main
+  has_actions: true
+  
+  # Разрешения для Actions
+  actions_permissions: 'write-all'
+  allow_forking: true
+  allow_squash_merge: true
+  allow_merge_commit: true
+  allow_rebase_merge: true
+  
+  # Защита веток
+  branches:
+    - name: main
+      protection:
+        required_status_checks: null
+        enforce_admins: false
+        required_pull_request_reviews: null
+        restrictions: null
+        allow_force_pushes: true
+        allow_deletions: false
+  
+  # Права для воркфлоу
+  workflows:
+    actions: write
+    checks: write
+    contents: write
+    deployments: write
+    issues: write
+    packages: write
+    pull-requests: write
+    repository-projects: write
+    security-events: write
+    statuses: write
+
+  # Настройки GitHub Actions
+  actions:
+    permissions:
+      # Разрешаем все действия
+      actions: write
+      contents: write
+      deployments: write
+      packages: write
+      
+    # Разрешаем запуск всех воркфлоу
+    allowed_actions: all
