@@ -1,0 +1,23 @@
+2025-04-01 04:47:12,191 - INFO - === Запуск приложения ===
+2025-04-01 04:47:12,191 - INFO - Текущая директория: C:\Users\52\Desktop\Botmanage\.githubworkflows
+2025-04-01 04:47:12,192 - INFO - Python версия: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-04-01 04:47:12,193 - INFO - Директория C:\Users\52\Desktop\Botmanage\.githubworkflows\templates проверена
+2025-04-01 04:47:12,194 - INFO - Директория C:\Users\52\Desktop\Botmanage\.githubworkflows\static/js проверена
+2025-04-01 04:47:12,194 - INFO - Директория C:\Users\52\Desktop\Botmanage\.githubworkflows\logs проверена
+2025-04-01 04:47:12,195 - INFO - Директория C:\Users\52\Desktop\Botmanage\.githubworkflows\models проверена
+2025-04-01 04:47:12,195 - WARNING - Не найден HTML шаблон: C:\Users\52\Desktop\Botmanage\.githubworkflows\templates/index.html
+2025-04-01 04:47:12,196 - WARNING - Не найден JavaScript код: C:\Users\52\Desktop\Botmanage\.githubworkflows\static/js/app.js
+2025-04-01 04:47:12,196 - INFO - Запуск Flask сервера...
+2025-04-01 04:47:12,201 - INFO -  * Restarting with stat
+2025-04-01 04:47:19,736 - INFO - === Запуск приложения ===
+2025-04-01 04:47:19,736 - INFO - Текущая директория: C:\Users\52\Desktop\Botmanage\.githubworkflows
+2025-04-01 04:47:19,737 - INFO - Python версия: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-04-01 04:47:19,737 - INFO - Директория C:\Users\52\Desktop\Botmanage\.githubworkflows\templates проверена
+2025-04-01 04:47:19,738 - INFO - Директория C:\Users\52\Desktop\Botmanage\.githubworkflows\static/js проверена
+2025-04-01 04:47:19,738 - INFO - Директория C:\Users\52\Desktop\Botmanage\.githubworkflows\logs проверена
+2025-04-01 04:47:19,739 - INFO - Директория C:\Users\52\Desktop\Botmanage\.githubworkflows\models проверена
+2025-04-01 04:47:19,739 - WARNING - Не найден HTML шаблон: C:\Users\52\Desktop\Botmanage\.githubworkflows\templates/index.html
+2025-04-01 04:47:19,740 - WARNING - Не найден JavaScript код: C:\Users\52\Desktop\Botmanage\.githubworkflows\static/js/app.js
+2025-04-01 04:47:19,740 - INFO - Запуск Flask сервера...
+2025-04-01 04:47:19,745 - WARNING -  * Debugger is active!
+2025-04-01 04:47:19,747 - INFO -  * Debugger PIN: 126-487-789

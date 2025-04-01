@@ -71,3 +71,26 @@
 2025-04-01 04:15:50,607 - INFO - Запуск Flask сервера...
 2025-04-01 04:15:50,613 - WARNING -  * Debugger is active!
 2025-04-01 04:15:50,614 - INFO -  * Debugger PIN: 126-487-789
+2025-04-01 04:46:51,829 - INFO - === Запуск приложения ===
+2025-04-01 04:46:51,829 - INFO - Текущая директория: C:\Users\52\Desktop\Botmanage
+2025-04-01 04:46:51,830 - INFO - Python версия: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-04-01 04:46:51,831 - INFO - Директория C:\Users\52\Desktop\Botmanage\templates проверена
+2025-04-01 04:46:51,831 - INFO - Директория C:\Users\52\Desktop\Botmanage\static/js проверена
+2025-04-01 04:46:51,832 - INFO - Директория C:\Users\52\Desktop\Botmanage\logs проверена
+2025-04-01 04:46:51,832 - INFO - Директория C:\Users\52\Desktop\Botmanage\models проверена
+2025-04-01 04:46:51,832 - INFO - Найден HTML шаблон: C:\Users\52\Desktop\Botmanage\templates/index.html
+2025-04-01 04:46:51,833 - INFO - Найден JavaScript код: C:\Users\52\Desktop\Botmanage\static/js/app.js
+2025-04-01 04:46:51,834 - INFO - Запуск Flask сервера...
+2025-04-01 04:46:51,841 - INFO -  * Restarting with stat
+2025-04-01 04:46:59,208 - INFO - === Запуск приложения ===
+2025-04-01 04:46:59,208 - INFO - Текущая директория: C:\Users\52\Desktop\Botmanage
+2025-04-01 04:46:59,208 - INFO - Python версия: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-04-01 04:46:59,209 - INFO - Директория C:\Users\52\Desktop\Botmanage\templates проверена
+2025-04-01 04:46:59,209 - INFO - Директория C:\Users\52\Desktop\Botmanage\static/js проверена
+2025-04-01 04:46:59,209 - INFO - Директория C:\Users\52\Desktop\Botmanage\logs проверена
+2025-04-01 04:46:59,210 - INFO - Директория C:\Users\52\Desktop\Botmanage\models проверена
+2025-04-01 04:46:59,210 - INFO - Найден HTML шаблон: C:\Users\52\Desktop\Botmanage\templates/index.html
+2025-04-01 04:46:59,210 - INFO - Найден JavaScript код: C:\Users\52\Desktop\Botmanage\static/js/app.js
+2025-04-01 04:46:59,210 - INFO - Запуск Flask сервера...
+2025-04-01 04:46:59,215 - WARNING -  * Debugger is active!
+2025-04-01 04:46:59,216 - INFO -  * Debugger PIN: 126-487-789
